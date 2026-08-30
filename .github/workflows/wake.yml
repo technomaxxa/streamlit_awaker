@@ -24,3 +24,5 @@ jobs:
 
       - name: Run Selenium script
         run: python main.py
+        env:
+          STREAMLIT_APP_URL: "https://lynxrag.streamlit.app/"
